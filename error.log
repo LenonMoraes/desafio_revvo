@@ -1,0 +1,5933 @@
+[2025-02-08 08:17:06] API Request
+Context: Array
+(
+    [action] => create
+    [id] => 
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:17:16] API Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:17:16] Unhandled Exception
+Context: Array
+(
+    [message] => DateTime::createFromFormat(): Argument #2 ($datetime) must be of type string, DateTime given
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Helpers\Validation.php
+    [line] => 37
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\src\Helpers\Validation.php(37): DateTime::createFromFormat('Y-m-d', Object(DateTime))
+#1 C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php(84): Helpers\Validation->validateUser(Array)
+#2 C:\xampp\htdocs\desafio_revvo\public\api.php(216): Repositories\UserRepository->create(Object(Models\User))
+#3 {main}
+)
+
+[2025-02-08 08:18:51] API Request
+Context: Array
+(
+    [action] => create
+    [id] => 
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:19:01] API Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:19:01] Unhandled Exception
+Context: Array
+(
+    [message] => DateTime::createFromFormat(): Argument #2 ($datetime) must be of type string, DateTime given
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Helpers\Validation.php
+    [line] => 37
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\src\Helpers\Validation.php(37): DateTime::createFromFormat('Y-m-d', Object(DateTime))
+#1 C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php(84): Helpers\Validation->validateUser(Array)
+#2 C:\xampp\htdocs\desafio_revvo\public\api.php(230): Repositories\UserRepository->create(Object(Models\User))
+#3 {main}
+)
+
+[2025-02-08 08:20:29] API Request
+Context: Array
+(
+    [action] => create
+    [id] => 
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:20:37] API Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:20:37] Unhandled Exception
+Context: Array
+(
+    [message] => DateTime::createFromFormat(): Argument #2 ($datetime) must be of type string, DateTime given
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Helpers\Validation.php
+    [line] => 37
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\src\Helpers\Validation.php(37): DateTime::createFromFormat('Y-m-d', Object(DateTime))
+#1 C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php(84): Helpers\Validation->validateUser(Array)
+#2 C:\xampp\htdocs\desafio_revvo\public\api.php(230): Repositories\UserRepository->create(Object(Models\User))
+#3 {main}
+)
+
+[2025-02-08 08:23:10] API Request
+Context: Array
+(
+    [action] => create
+    [id] => 
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:23:22] API Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:23:22] Dados do usuário antes da criação
+Context: Array
+(
+    [nome] => Lenon Guilherme de moraes
+    [email] => lenongmoraes26@gmail.com
+    [telefone] => (51) 99694-9200
+    [data_nascimento] => 1993-10-06
+    [tipo_data] => DateTime
+)
+
+[2025-02-08 08:25:21] API Request
+Context: Array
+(
+    [action] => view
+    [id] => 119
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:25:26] API Request
+Context: Array
+(
+    [action] => edit
+    [id] => 119
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:25:32] API Request
+Context: Array
+(
+    [action] => update
+    [id] => 119
+    [post_data] => Array
+        (
+            [id] => 119
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:25:32] Unhandled Exception
+Context: Array
+(
+    [message] => Call to a member function format() on string
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php
+    [line] => 129
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\public\api.php(285): Repositories\UserRepository->update(Object(Models\User))
+#1 {main}
+)
+
+[2025-02-08 08:25:39] API Request
+Context: Array
+(
+    [action] => delete
+    [id] => 119
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:25:41] API Request
+Context: Array
+(
+    [action] => create
+    [id] => 
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:25:51] API Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:25:51] Dados do usuário antes da criação
+Context: Array
+(
+    [nome] => Lenon Guilherme de moraes
+    [email] => lenongmoraes26@gmail.com
+    [telefone] => (51) 99694-9200
+    [data_nascimento] => 1993-10-06
+    [tipo_data] => DateTime
+)
+
+[2025-02-08 08:26:11] API Request
+Context: Array
+(
+    [action] => edit
+    [id] => 120
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:26:13] API Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:26:13] Unhandled Exception
+Context: Array
+(
+    [message] => Call to a member function format() on string
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php
+    [line] => 129
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\public\api.php(285): Repositories\UserRepository->update(Object(Models\User))
+#1 {main}
+)
+
+[2025-02-08 08:28:04] API Request
+Context: Array
+(
+    [action] => edit
+    [id] => 120
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:28:09] API Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:28:14] API Request
+Context: Array
+(
+    [action] => view
+    [id] => 120
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:30:53] API Request
+Context: Array
+(
+    [action] => create
+    [id] => 
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:31:22] API Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Vivi
+            [email] => vivi@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 2000-11-08
+        )
+
+)
+
+[2025-02-08 08:31:22] Dados do usuário antes da criação
+Context: Array
+(
+    [nome] => Vivi
+    [email] => vivi@gmail.com
+    [telefone] => (51) 99694-9200
+    [data_nascimento] => 2000-11-08
+    [tipo_data] => DateTime
+)
+
+[2025-02-08 08:31:26] API Request
+Context: Array
+(
+    [action] => view
+    [id] => 121
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:32:26] API Request
+Context: Array
+(
+    [action] => view
+    [id] => 120
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:33:30] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:33:32] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:33:36] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:33:43] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => delete
+    [id] => 121
+    [get_params] => Array
+        (
+            [action] => delete
+            [id] => 121
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:35:13] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:35:16] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:36:46] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:38:32] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:38:35] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:38:39] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:40:30] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:41:01] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:43:36] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:45:25] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:45:28] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:45:28] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-08 08:45:34] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:45:42] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:46:08] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Vivi
+            [email] => vivi@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 2000-10-06
+        )
+
+)
+
+[2025-02-08 08:46:08] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Vivi
+            [email] => vivi@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 2000-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 08:46:08] Dados do usuário antes da criação
+Context: Array
+(
+    [nome] => Vivi
+    [email] => vivi@gmail.com
+    [telefone] => (51) 99694-9200
+    [data_nascimento] => 2000-10-06
+    [tipo_data] => DateTime
+)
+
+[2025-02-08 08:46:14] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 122
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 122
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:52:03] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:53:45] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:53:47] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:53:52] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:53:52] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-08 08:54:03] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => delete
+    [id] => 122
+    [get_params] => Array
+        (
+            [action] => delete
+            [id] => 122
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:54:07] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:54:28] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Vivi
+            [email] => vivi@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 2000-11-08
+        )
+
+)
+
+[2025-02-08 08:54:28] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Vivi
+            [email] => vivi@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 2000-11-08
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 08:54:28] Dados do usuário antes da criação
+Context: Array
+(
+    [nome] => Vivi
+    [email] => vivi@gmail.com
+    [telefone] => (51) 99694-9200
+    [data_nascimento] => 2000-11-08
+    [tipo_data] => DateTime
+)
+
+[2025-02-08 08:54:31] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:54:52] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Vivi
+            [email] => vivi@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 2000-10-08
+        )
+
+)
+
+[2025-02-08 08:54:52] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Vivi
+            [email] => vivi@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 2000-10-08
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 08:54:52] Dados do usuário antes da criação
+Context: Array
+(
+    [nome] => Vivi
+    [email] => vivi@gmail.com
+    [telefone] => (51) 99694-9200
+    [data_nascimento] => 2000-10-08
+    [tipo_data] => DateTime
+)
+
+[2025-02-08 08:54:52] Erro ao salvar usuário
+Context: Array
+(
+    [message] => SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vivi@gmail.com' for key 'email'
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php
+    [line] => 95
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php(95): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\desafio_revvo\public\api.php(291): Repositories\UserRepository->create(Object(Models\User))
+#2 {main}
+)
+
+[2025-02-08 08:59:38] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 08:59:46] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 08:59:46] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 08:59:46] Unhandled Exception
+Context: Array
+(
+    [message] => Using $this when not in object context
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 246
+    [trace] => #0 {main}
+)
+
+[2025-02-08 08:59:54] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:00:03] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:00:03] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 09:00:03] Unhandled Exception
+Context: Array
+(
+    [message] => Using $this when not in object context
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 246
+    [trace] => #0 {main}
+)
+
+[2025-02-08 09:03:03] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:03:14] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:03:14] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 09:03:14] Unhandled Exception
+Context: Array
+(
+    [message] => Using $this when not in object context
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 246
+    [trace] => #0 {main}
+)
+
+[2025-02-08 09:03:31] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:03:33] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:03:38] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:03:38] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-08 09:03:45] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:03:57] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:03:57] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 09:03:57] Unhandled Exception
+Context: Array
+(
+    [message] => Using $this when not in object context
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 246
+    [trace] => #0 {main}
+)
+
+[2025-02-08 09:04:48] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:04:48] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 09:04:48] Unhandled Exception
+Context: Array
+(
+    [message] => Using $this when not in object context
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 246
+    [trace] => #0 {main}
+)
+
+[2025-02-08 09:08:43] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:08:53] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:08:53] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-08 09:08:53] Unhandled Exception
+Context: Array
+(
+    [message] => Using $this when not in object context
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 246
+    [trace] => #0 {main}
+)
+
+[2025-02-08 09:10:20] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:10:33] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 123
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 123
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:14:59] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => delete
+    [id] => 123
+    [get_params] => Array
+        (
+            [action] => delete
+            [id] => 123
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:15:58] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:16:02] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:16:05] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:16:05] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-08 09:16:10] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:16:14] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:16:14] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-08 09:36:00] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:36:04] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-08 09:36:04] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-08 09:36:09] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:44:35] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:44:40] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-08 09:44:51] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:09:35] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:10:22] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:11:02] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:12:12] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:12:42] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:12:51] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:13:08] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:13:33] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:13:45] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:16:22] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:17:41] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:18:48] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:20:45] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:21:21] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:21:40] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:22:04] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:24:08] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:24:12] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:25:21] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:25:27] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:25:30] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:25:49] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:25:52] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:26:06] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:26:35] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:27:03] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:27:19] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:27:31] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:28:53] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:30:42] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:31:44] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:31:44] Unhandled Exception
+Context: Array
+(
+    [message] => Call to a member function format() on string
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 135
+    [trace] => #0 {main}
+)
+
+[2025-02-11 12:32:15] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:32:15] Unhandled Exception
+Context: Array
+(
+    [message] => Call to a member function format() on string
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 135
+    [trace] => #0 {main}
+)
+
+[2025-02-11 12:32:28] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:33:44] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:34:05] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:34:16] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-06-20
+        )
+
+)
+
+[2025-02-11 12:34:16] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-06-20
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-11 12:34:16] Unhandled Exception
+Context: Array
+(
+    [message] => Using $this when not in object context
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 239
+    [trace] => #0 {main}
+)
+
+[2025-02-11 12:38:58] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:39:07] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-11 12:39:07] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-11 12:39:15] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-11 12:39:15] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-11 12:39:39] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:39:41] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-11 12:39:41] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 12:39:45] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:39:51] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 1990-01-01
+        )
+
+)
+
+[2025-02-11 12:39:51] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 125
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 1990-01-01
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 12:39:54] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:39:58] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrador
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 1990-01-01
+        )
+
+)
+
+[2025-02-11 12:39:58] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 125
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrador
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 1990-01-01
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 12:40:04] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:40:06] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:40:10] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:40:16] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:40:22] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:40:26] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:43:07] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => edit
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => edit
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:43:11] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-11 12:43:11] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 120
+    [post_data] => Array
+        (
+            [id] => 120
+            [nome] => Lenon Guilherme de morae
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 12:43:16] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:43:36] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => delete
+    [id] => 120
+    [get_params] => Array
+        (
+            [action] => delete
+            [id] => 120
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:43:40] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => create
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => create
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 12:43:55] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => save
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => save
+        )
+
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-11 12:43:55] POST Request
+Context: Array
+(
+    [action] => save
+    [id] => 
+    [post_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=save
+)
+
+[2025-02-11 12:44:04] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 126
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 126
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 13:57:44] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => list
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => list
+            [pagina] => 1
+            [itensPorPagina] => 10
+            [busca] => 
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 13:57:49] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 13:57:53] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+)
+
+[2025-02-11 13:57:53] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 125
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 13:57:53] Unhandled Exception
+Context: Array
+(
+    [message] => Call to undefined method Repositories\UserRepository::save()
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 13:57:59] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 13:58:01] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrador
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+)
+
+[2025-02-11 13:58:01] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 125
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrador
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 13:58:01] Unhandled Exception
+Context: Array
+(
+    [message] => Call to undefined method Repositories\UserRepository::save()
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 13:58:08] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => delete
+    [id] => 126
+    [get_params] => Array
+        (
+            [action] => delete
+            [id] => 126
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 13:58:09] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => list
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => list
+            [pagina] => 1
+            [itensPorPagina] => 10
+            [busca] => 
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 13:58:42] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 13:58:44] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrador
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+)
+
+[2025-02-11 13:58:44] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 125
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrador
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 13:58:44] Unhandled Exception
+Context: Array
+(
+    [message] => Call to undefined method Repositories\UserRepository::save()
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 14:01:48] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => list
+    [id] => 
+    [get_params] => Array
+        (
+            [action] => list
+            [pagina] => 1
+            [itensPorPagina] => 10
+            [busca] => 
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 14:01:50] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 14:01:54] API Request
+Context: Array
+(
+    [method] => GET
+    [action] => view
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => view
+            [id] => 125
+        )
+
+    [post_data] => Array
+        (
+        )
+
+)
+
+[2025-02-11 14:01:58] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+)
+
+[2025-02-11 14:01:58] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 125
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 14:01:58] Unhandled Exception
+Context: Array
+(
+    [message] => Call to undefined method Repositories\UserRepository::save()
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 14:02:07] API Request
+Context: Array
+(
+    [method] => POST
+    [action] => update
+    [id] => 125
+    [get_params] => Array
+        (
+            [action] => update
+        )
+
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 1993-10-06
+        )
+
+)
+
+[2025-02-11 14:02:07] POST Request
+Context: Array
+(
+    [action] => update
+    [id] => 125
+    [post_data] => Array
+        (
+            [id] => 125
+            [nome] => Administrado
+            [email] => admin@revvo.com
+            [telefone] => (11) 99999-9999
+            [data_nascimento] => 1993-10-06
+        )
+
+    [files] => Array
+        (
+        )
+
+    [request_uri] => /desafio_revvo/public/api.php?action=update
+)
+
+[2025-02-11 14:02:07] Unhandled Exception
+Context: Array
+(
+    [message] => Call to undefined method Repositories\UserRepository::save()
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 14:07:27] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:07:27] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:25:22] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:25:22] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:29:29] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:29:29] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:31:33] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:31:33] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:32:22] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:32:22] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:34:43] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:34:43] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:36:22] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:36:22] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:37:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:37:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:38:29] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:38:29] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:39:15] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:39:15] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:39:34] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:39:34] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:40:14] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:40:14] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:43:53] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:43:54] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:44:22] Unhandled Exception
+Context: Array
+(
+    [message] => Call to a member function format() on string
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php
+    [line] => 105
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\public\api.php(169): Repositories\UserRepository->create(Object(Models\User))
+#1 {main}
+)
+
+[2025-02-11 14:46:48] Unhandled Exception
+Context: Array
+(
+    [message] => Call to a member function format() on string
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php
+    [line] => 105
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\public\api.php(169): Repositories\UserRepository->create(Object(Models\User))
+#1 {main}
+)
+
+[2025-02-11 14:46:51] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:46:51] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:47:04] Unhandled Exception
+Context: Array
+(
+    [message] => Call to a member function format() on string
+    [file] => C:\xampp\htdocs\desafio_revvo\src\Repositories\UserRepository.php
+    [line] => 105
+    [trace] => #0 C:\xampp\htdocs\desafio_revvo\public\api.php(169): Repositories\UserRepository->create(Object(Models\User))
+#1 {main}
+)
+
+[2025-02-11 14:49:13] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:49:13] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:49:24] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:49:24] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:49:50] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:49:50] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:50:14] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:50:14] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:50:24] Erro ao criar usuário
+Context: Array
+(
+    [message] => {"email":"Este email j\u00e1 est\u00e1 cadastrado"}
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 14:53:02] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:53:02] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:53:11] Erro ao criar usuário
+Context: Array
+(
+    [message] => {"email":"Este email j\u00e1 est\u00e1 cadastrado"}
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 14:56:29] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:56:29] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:56:36] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:56:36] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:56:46] Erro ao criar usuário
+Context: Array
+(
+    [message] => {"email":"Este email j\u00e1 est\u00e1 cadastrado"}
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 14:59:20] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 14:59:20] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 14:59:29] Erro ao criar usuário
+Context: Array
+(
+    [message] => {"email":"Este email j\u00e1 est\u00e1 cadastrado"}
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 15:04:26] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:04:26] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:04:36] Erro ao criar usuário
+Context: Array
+(
+    [message] => {"email":"Este email j\u00e1 est\u00e1 cadastrado"}
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 15:08:08] Erro ao criar usuário
+Context: Array
+(
+    [message] => Undefined variable $connection
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 15:08:13] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:08:13] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:08:25] Erro ao criar usuário
+Context: Array
+(
+    [message] => Undefined variable $connection
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 15:09:25] Erro ao criar usuário
+Context: Array
+(
+    [message] => Undefined variable $connection
+    [input_data] => Array
+        (
+            [nome] => Lenon Guilherme de moraes
+            [email] => lenongmoraes26@gmail.com
+            [telefone] => (51) 99694-9200
+            [data_nascimento] => 1993-10-05
+        )
+
+)
+
+[2025-02-11 15:11:20] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:11:20] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:11:40] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:14:47] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:14:47] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:14:54] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:14:54] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:15:19] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:17:39] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:18:35] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:18:37] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:18:37] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:18:47] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:19:59] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:19:59] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:20:09] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:20:41] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:21:15] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:21:15] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:21:23] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:22:01] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:22:01] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:22:05] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:24:33] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:24:35] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:24:35] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:24:49] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:25:41] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:26:07] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:26:07] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:26:15] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:27:19] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:27:19] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:27:28] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:29:21] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:29:21] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:29:29] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:30:31] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:30:31] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:30:48] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:38:59] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:38:59] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:39:08] Unhandled Exception
+Context: Array
+(
+    [message] => Cannot access private property Repositories\UserRepository::$connection
+    [file] => C:\xampp\htdocs\desafio_revvo\public\api.php
+    [line] => 162
+    [trace] => #0 {main}
+)
+
+[2025-02-11 15:41:13] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:41:13] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:46:15] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:46:15] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:47:46] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:47:46] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:48:03] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:48:03] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:51:04] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:51:04] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:55:19] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:55:19] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 15:58:54] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 15:58:54] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:00:03] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:00:03] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:00:53] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:00:53] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:01:47] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:01:47] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:03:10] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:03:10] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:04:23] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:04:23] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:04:37] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vivi
+)
+
+[2025-02-11 16:04:37] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:04:45] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:04:45] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:06:00] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:06:00] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:07:20] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:07:20] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:07:43] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:07:43] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:08:27] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:08:27] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:08:36] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:08:36] List Action Result
+Context: Array
+(
+    [total_usuarios] => 3
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:09:05] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:09:05] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:09:09] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:09:09] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 16:09:20] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 16:09:20] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 18:56:41] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 18:56:41] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 18:56:51] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 18:56:51] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 18:56:57] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 18:56:57] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 18:57:15] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => sdfas
+)
+
+[2025-02-11 18:57:15] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 18:57:19] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 18:57:19] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 18:59:43] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 18:59:43] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 18:59:48] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => bob
+)
+
+[2025-02-11 18:59:48] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 18:59:49] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => bob
+)
+
+[2025-02-11 18:59:49] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 18:59:59] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 18:59:59] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:00:58] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:00:58] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:01:03] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:01:03] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:01:03] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:01:03] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:01:04] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => ds
+)
+
+[2025-02-11 19:01:04] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:02:48] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:02:48] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:02:53] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vi
+)
+
+[2025-02-11 19:02:53] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:02:54] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vi
+)
+
+[2025-02-11 19:02:54] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:02:57] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:02:57] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:02:58] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:02:58] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:02:58] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:02:58] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:02:58] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:02:58] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:02:58] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:02:58] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:36] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:36] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:41] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:41] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:42] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:42] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:43] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:43] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:43] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:43] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:45] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:45] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:45] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:45] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:45] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:45] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:48] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vivi
+)
+
+[2025-02-11 19:04:48] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:04:50] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:50] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:51] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => d
+)
+
+[2025-02-11 19:04:51] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:52] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => df
+)
+
+[2025-02-11 19:04:52] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:04:54] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:54] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:54] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => b
+)
+
+[2025-02-11 19:04:54] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:04:55] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => v
+)
+
+[2025-02-11 19:04:55] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:04:56] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vi
+)
+
+[2025-02-11 19:04:56] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:04:56] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => viv
+)
+
+[2025-02-11 19:04:56] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:04:57] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vivi
+)
+
+[2025-02-11 19:04:57] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:04:58] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:04:58] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:05:34] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:05:34] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:05:37] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => v
+)
+
+[2025-02-11 19:05:37] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:05:37] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vi
+)
+
+[2025-02-11 19:05:37] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:05:39] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:05:39] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:05:43] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => d
+)
+
+[2025-02-11 19:05:43] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:05:44] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => das
+)
+
+[2025-02-11 19:05:44] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:05:45] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:05:45] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:09] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => c
+)
+
+[2025-02-11 19:07:09] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:10] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => ca
+)
+
+[2025-02-11 19:07:10] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:07:12] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => cag
+)
+
+[2025-02-11 19:07:12] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:07:12] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => caga
+)
+
+[2025-02-11 19:07:12] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:07:13] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => cag
+)
+
+[2025-02-11 19:07:13] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:07:14] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => ca
+)
+
+[2025-02-11 19:07:14] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:07:15] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => c
+)
+
+[2025-02-11 19:07:15] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:16] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:07:16] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:32] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:07:32] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:33] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => d
+)
+
+[2025-02-11 19:07:33] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:35] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => de
+)
+
+[2025-02-11 19:07:35] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:37] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:07:37] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:38] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => b
+)
+
+[2025-02-11 19:07:38] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:07:39] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:07:39] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:07:52] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:07:52] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:08:02] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:08:02] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:08:08] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:08:08] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:08:17] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:08:17] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:20:03] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vivi
+)
+
+[2025-02-11 19:20:03] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:20:07] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => v
+)
+
+[2025-02-11 19:20:07] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:20:08] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vi
+)
+
+[2025-02-11 19:20:08] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:20:09] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => viv
+)
+
+[2025-02-11 19:20:09] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:20:10] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vivi
+)
+
+[2025-02-11 19:20:10] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:20:11] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => viv
+)
+
+[2025-02-11 19:20:11] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:20:12] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => vi
+)
+
+[2025-02-11 19:20:12] List Action Result
+Context: Array
+(
+    [total_usuarios] => 0
+    [total_paginas] => 0
+)
+
+[2025-02-11 19:20:13] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => v
+)
+
+[2025-02-11 19:20:13] List Action Result
+Context: Array
+(
+    [total_usuarios] => 1
+    [total_paginas] => 1
+)
+
+[2025-02-11 19:20:14] List Action Request
+Context: Array
+(
+    [pagina] => 1
+    [itensPorPagina] => 10
+    [termoPesquisa] => 
+)
+
+[2025-02-11 19:20:14] List Action Result
+Context: Array
+(
+    [total_usuarios] => 2
+    [total_paginas] => 1
+)
+

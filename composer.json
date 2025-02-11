@@ -1,0 +1,16 @@
+{
+    "name": "desafio_revvo/user-management",
+    "description": "Sistema de Gerenciamento de Usuários",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Repositories\\": "src/Repositories/",
+            "Models\\": "src/Models/",
+            "Database\\": "src/Database/",
+            "Helpers\\": "src/Helpers/"
+        }
+    }
+}
