@@ -1,0 +1,337 @@
+/* Definição de variáveis de cores para uso consistente em todo o projeto */
+:root {
+    --primary-color:#007bff;     /* Cor primária azul para elementos principais */
+    --secondary-color: #6c757d;  /* Cor secundária para elementos de apoio */
+    --success-color: #28a745;    /* Cor verde para indicar sucesso */
+    --danger-color: #dc3545;     /* Cor vermelha para indicar erro ou perigo */
+    --warning-color: #ffc107;    /* Cor amarela para avisos */
+    --info-color: #17a2b8;       /* Cor azul claro para informações */
+}
+
+/* Estilos globais para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;  /* Fonte padrão para melhor legibilidade */
+    background-color: #f4f4f4;         /* Fundo cinza claro */
+    margin: 0;                         /* Remover margens padrão */
+    padding: 0;                        /* Remover preenchimento padrão */
+    line-height: 1.6;                  /* Aumentar espaçamento entre linhas */
+}
+
+/* Contêiner principal para centralizar e estilizar o conteúdo */
+.container {
+    width: 90%;                        /* Largura responsiva */
+    max-width: 1200px;                 /* Largura máxima para telas grandes */
+    margin: 2rem auto;                 /* Centralizar e adicionar espaço vertical */
+    background-color: white;           /* Fundo branco */
+    padding: 2rem;                     /* Preenchimento interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil para profundidade */
+    border-radius: 5px;                /* Cantos arredondados */
+}
+
+/* Estilização do cabeçalho */
+.header {
+    display: flex;                     /* Layout flexível */
+    justify-content: space-between;    /* Distribuir espaço entre elementos */
+    align-items: center;               /* Alinhar verticalmente */
+    margin-bottom: 1.5rem;             /* Espaço abaixo do cabeçalho */
+    border-bottom: 2px solid var(--primary-color);  /* Linha divisória */
+    padding-bottom: 1rem;              /* Preenchimento na parte inferior */
+}
+
+/* Estilos para títulos */
+h1, h2 {
+    color: var(--primary-color);       /* Cor padrão para títulos */
+    margin: 0;                         /* Remover margens padrão */
+}
+
+/* Estilização de tabelas */
+table {
+    width: 100%;                       /* Ocupar largura total */
+    border-collapse: collapse;         /* Remover espaços entre células */
+}
+
+/* Estilos para células de tabela */
+table th, table td {
+    padding: 12px;                     /* Preenchimento interno */
+    text-align: center;                /* Alinhar texto ao centro */
+    border-bottom: 1px solid #ddd;     /* Linha divisória */
+}
+
+/* Estilos para cabeçalho de tabela */
+table th {
+    background-color: #f8f9fa;         /* Fundo cinza claro */
+    color: #495057;                    /* Cor de texto */
+}
+
+/* Estilos para botões */
+.btn {
+    display: flex;                     /* Layout flexível */
+    padding: 8px 16px;                 /* Preenchimento interno */
+    border: none;                      /* Remover borda */
+    border-radius: 4px;                /* Cantos arredondados */
+    cursor: pointer;                   /* Cursor de ponteiro */
+    transition: background-color 0.3s ease;  /* Transição de cor de fundo */
+    text-decoration: none;             /* Remover decoração de texto */
+    font-size: 0.9rem;                 /* Tamanho de fonte */
+}
+
+/* Estilos para botões primários */
+.btn-primary {
+    background-color: var(--success-color);  /* Cor de fundo verde */
+    color: white;                       /* Cor de texto branca */
+}
+
+/* Estilos para botões primários em hover */
+.btn-primary:hover {
+    background-color: #04be3c;         /* Cor de fundo verde mais escuro */
+}
+
+/* Estilos para botões de informação */
+.btn-info {
+    background-color: var(--info-color);  /* Cor de fundo azul claro */
+    color: white;                       /* Cor de texto branca */
+}
+
+/* Estilos para botões de informação em hover */
+.btn-info:hover {
+    background-color: #138496;         /* Cor de fundo azul mais escuro */
+}
+
+/* Estilos para botões de aviso */
+.btn-warning {
+    background-color: var(--warning-color);  /* Cor de fundo amarela */
+    color: #212529;                    /* Cor de texto escura */
+}
+
+/* Estilos para botões de aviso em hover */
+.btn-warning:hover {
+    background-color: #e0a800;         /* Cor de fundo amarela mais escura */
+}
+
+/* Estilos para botões de perigo */
+.btn-danger {
+    background-color: var(--danger-color);  /* Cor de fundo vermelha */
+    color: white;                       /* Cor de texto branca */
+}
+
+/* Estilos para botões de perigo em hover */
+.btn-danger:hover {
+    background-color: #bd2130;         /* Cor de fundo vermelha mais escura */
+}
+
+/* Estilos para células de tabela com ícones */
+body > div.container > main > table > tbody > tr > td:nth-child(3){
+    display: flex;                     /* Layout flexível */
+    align-items: center;               /* Alinhar verticalmente */
+    justify-content: flex-end;         /* Justificar ao final */
+    gap: 5px;                          /* Espaçamento entre elementos */
+}
+
+/* Estilos para modais */
+.modal {
+    display: none;                     /* Esconder por padrão */
+    position: fixed;                   /* Posição fixa */
+    top: 0;                            /* Posição superior */
+    left: 0;                           /* Posição esquerda */
+    width: 100%;                       /* Largura total */
+    height: 100%;                      /* Altura total */
+    background-color: rgba(0, 0, 0, 0.5);  /* Fundo preto semi-transparente */
+    z-index: 1000;                     /* Índice de camada */
+    justify-content: center;           /* Justificar ao centro */
+    align-items: center;               /* Alinhar verticalmente */
+    opacity: 0;                        /* Opacidade inicial */
+    visibility: hidden;                /* Visibilidade inicial */
+    transition: opacity 0.3s ease, visibility 0.3s;  /* Transição de opacidade e visibilidade */
+}
+
+/* Estilos para modais visíveis */
+.modal-show {
+    display: flex;                     /* Layout flexível */
+    opacity: 1;                        /* Opacidade total */
+    visibility: visible;               /* Visibilidade total */
+}
+
+/* Estilos para conteúdo de modais */
+.modal-content {
+    background: #fff;                  /* Fundo branco */
+    padding: 40px;                     /* Preenchimento interno */
+    border-radius: 8px;                /* Cantos arredondados */
+    width: 90%;                        /* Largura responsiva */
+    max-width: 500px;                  /* Largura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra sutil */
+    text-align: center;                /* Alinhar texto ao centro */
+    position: relative;                /* Posição relativa */
+}
+
+/* Estilos para cabeçalho de modais */
+.modal-header {
+    font-size: 1.5rem;                 /* Tamanho de fonte */
+    font-weight: bold;                 /* Peso de fonte */
+    margin-bottom: 10px;               /* Espaço abaixo do cabeçalho */
+    display: flex;                     /* Layout flexível */
+    justify-content: space-between;    /* Distribuir espaço entre elementos */
+}
+
+/* Estilos para corpo de modais */
+.modal-body {
+    margin-bottom: 20px;               /* Espaço abaixo do corpo */
+}
+
+/* Estilos para botão de fechar modais */
+#modal > div > div.modal-header > button {
+    position: absolute;                /* Posição absoluta */
+    top: 10px;                         /* Posição superior */
+    right: 10px;                       /* Posição direita */
+    color: #ff0808;                    /* Cor de texto */
+    border: none;                      /* Remover borda */
+    border-radius: 50%;                /* Cantos arredondados */
+    font-size: 2rem;                   /* Tamanho de fonte */
+    width: 50px;                       /* Largura */
+    height: 30px;                      /* Altura */
+    cursor: pointer;                   /* Cursor de ponteiro */
+}
+
+/* Estilos para botão de fechar modais em hover */
+.close-btn:hover {
+    background: #ff3b30;               /* Cor de fundo */
+}
+
+/* Estilos para botões de ação */
+.button {
+    padding: 10px 20px;                /* Preenchimento interno */
+    font-size: 1rem;                   /* Tamanho de fonte */
+    color: #fff;                       /* Cor de texto branca */
+    background: #007bff;               /* Cor de fundo azul */
+    border: none;                      /* Remover borda */
+    border-radius: 5px;                /* Cantos arredondados */
+    cursor: pointer;                   /* Cursor de ponteiro */
+}
+
+/* Estilos para botões de ação em hover */
+.button:hover {
+    background: #0056b3;               /* Cor de fundo azul mais escuro */
+}
+
+/* Estilos para grupos de formulário */
+.form-group {
+    margin-bottom: 1rem;               /* Espaço abaixo do grupo */
+    text-align: left;                  /* Alinhar texto à esquerda */
+}
+
+/* Estilos para controles de formulário */
+.form-control {
+    width: 100%;                       /* Largura total */
+    padding: 10px;                     /* Preenchimento interno */
+    border: 1px solid #ced4da;         /* Borda */
+    border-radius: 4px;                /* Cantos arredondados */
+}
+
+/* Estilos para mensagens de erro */
+.error-message {
+    color: var(--danger-color);        /* Cor de texto vermelha */
+    font-size: 0.8rem;                 /* Tamanho de fonte */
+    margin-top: 5px;                   /* Espaço acima da mensagem */
+    display: block;                    /* Exibir como bloco */
+}
+
+/* Estilos para controles de formulário com erro */
+input.error {
+    border-color: var(--danger-color);  /* Cor de borda vermelha */
+}
+
+/* Estilos para detalhes de usuário */
+.user-details {
+    display: flex;                     /* Layout flexível */
+    justify-content: space-between;    /* Distribuir espaço entre elementos */
+    gap: 20px;                         /* Espaçamento entre elementos */
+}
+
+/* Estilos para grupos de formulário de detalhes de usuário */
+.user-details .form-group {
+    flex: 1;                           /* Flexibilidade */
+    background-color: #f8f9fa;         /* Fundo cinza claro */
+    padding: 15px;                     /* Preenchimento interno */
+    border-radius: 5px;                /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Sombra sutil */
+}
+
+/* Estilos para títulos de grupos de formulário de detalhes de usuário */
+.user-details .form-group strong {
+    display: block;                    /* Exibir como bloco */
+    margin-bottom: 10px;               /* Espaço abaixo do título */
+    color: #495057;                    /* Cor de texto */
+    border-bottom: 1px solid #dee2e6;  /* Linha divisória */
+    padding-bottom: 5px;               /* Preenchimento na parte inferior */
+}
+
+/* Estilos para parágrafos de grupos de formulário de detalhes de usuário */
+.user-details .form-group p {
+    margin: 5px 0;                     /* Espaçamento entre parágrafos */
+    color: #212529;                    /* Cor de texto */
+}
+
+/* Estilos para rodapé de modais */
+.modal-footer {
+    display: flex;                     /* Layout flexível */
+    justify-content: space-between;    /* Distribuir espaço entre elementos */
+    align-items: center;               /* Alinhar verticalmente */
+    margin-top: 20px;                  /* Espaço acima do rodapé */
+    padding-top: 15px;                 /* Preenchimento na parte superior */
+    border-top: 1px solid #dee2e6;     /* Linha divisória */
+}
+
+/* Estilos para contêiner de pesquisa */
+.search-container {
+    display: flex;                     /* Layout flexível */
+    gap: 10px;                         /* Espaçamento entre elementos */
+    margin-bottom: 20px;               /* Espaço abaixo do contêiner */
+}
+
+/* Estilos para campo de pesquisa */
+.search-container input[type="search"] {
+    flex-grow: 1;                      /* Flexibilidade */
+    padding: 10px;                     /* Preenchimento interno */
+    border: 1px solid #ced4da;         /* Borda */
+    border-radius: 4px;                /* Cantos arredondados */
+    transition: border-color 0.2s;     /* Transição de cor de borda */
+}
+
+/* Estilos para campo de pesquisa em foco */
+.search-container input[type="search"]:focus {
+    outline: none;                     /* Remover contorno */
+    border-color: var(--primary-color);  /* Cor de borda azul */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);  /* Sombra sutil */
+}
+
+/* Estilos para paginação */
+.pagination {
+    display: flex;                     /* Layout flexível */
+    justify-content: center;           /* Justificar ao centro */
+    align-items: center;               /* Alinhar verticalmente */
+    gap: 15px;                         /* Espaçamento entre elementos */
+    margin-top: 20px;                  /* Espaço acima da paginação */
+    padding: 10px;                     /* Preenchimento interno */
+    background-color: #f8f9fa;         /* Fundo cinza claro */
+    border-radius: 5px;                /* Cantos arredondados */
+}
+
+/* Estilos para botões de paginação */
+.pagination .btn {
+    padding: 8px 15px;                 /* Preenchimento interno */
+}
+
+/* Estilos para texto de paginação */
+.pagination span {
+    color: #6c757d;                    /* Cor de texto */
+    font-weight: bold;                 /* Peso de fonte */
+}
+
+/* Estilos para alerta de nenhum resultado */
+.alert-info {
+    background-color: #e9ecef;         /* Fundo cinza claro */
+    color: #495057;                    /* Cor de texto */
+    padding: 15px;                     /* Preenchimento interno */
+    border-radius: 4px;                /* Cantos arredondados */
+    text-align: center;                /* Alinhar texto ao centro */
+    margin-top: 20px;                  /* Espaço acima do alerta */
+}
